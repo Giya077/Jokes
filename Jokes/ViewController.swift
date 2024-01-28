@@ -6,6 +6,12 @@ import UIKit
 class ViewController: UIViewController {
 	@IBOutlet weak var jokeView: UIView!
 	@IBOutlet weak var setupJokeLabel: UILabel!
+    @IBOutlet weak var refresh: UIButton!
+    @IBOutlet weak var showPunchline: UIButton!
+    @IBOutlet weak var jokeId: UILabel!
+    @IBOutlet weak var indexJoke: UILabel!
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var typeJoke: UILabel!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -32,9 +38,9 @@ class ViewController: UIViewController {
 	func showJoke(_ joke: JokeModel) {
 	}
 
-	@IBAction func showPunchButtonTapped(_ sender: Any) {
+	@IBAction func showPunchButtonTapped(_ sender: UIButton) {
 	}
 
-	@IBAction func refreshButtonTapped(_ sender: Any) {
+	@IBAction func refreshButtonTapped(_ sender: UIButton) {
 	}
 }
